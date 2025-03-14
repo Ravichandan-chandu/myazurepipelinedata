@@ -1,0 +1,9 @@
+{
+	"name": "ADF-RAVICHANDAN",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1be304fe-7b8f-4931-8823-63e59ed9d796",
+		"tenantId": "e5d15069-41a2-48be-a3f3-d7f52db16425"
+	}
+}

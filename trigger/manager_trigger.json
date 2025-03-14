@@ -1,0 +1,17 @@
+{
+	"name": "manager_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/Fact_Sales_1 (1).csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/c44137e0-807b-470b-8d2c-0616ee78f1f7/resourceGroups/ADF_FULL_COURSE/providers/Microsoft.Storage/storageAccounts/ravistoragedatafactory",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
